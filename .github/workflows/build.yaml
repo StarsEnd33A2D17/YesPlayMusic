@@ -100,7 +100,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: YesPlayMusic-mac
-          path: dist_electron/*-universal.dmg
+          path: dist_electron/*.dmg
           if-no-files-found: ignore
 
       - uses: actions/upload-artifact@v3
